@@ -18,7 +18,7 @@ namespace THIUWP.ADO
         public bool checkUserLogin(User user)
         {
             if (conn.State == System.Data.ConnectionState.Closed) conn.Open();
-            SqlCommand sqlCommand = new SqlCommand("SELECT * FROM dbo.account WHERE username = '" + user.username + "' AND password = '" + user.password + "'", conn);
+            SqlCommand sqlCommand = new SqlCommand("SELECT * FROM users WHERE username = '" + user.username + "' AND password = '" + user.password + "'", conn);
             SqlDataReader dataReader = sqlCommand.ExecuteReader();
             if (dataReader.HasRows)
             {
