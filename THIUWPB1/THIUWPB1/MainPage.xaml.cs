@@ -1,4 +1,6 @@
-﻿using System;
+﻿using THIUWPB1.ADO;
+using THIUWPB1.Model;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +24,34 @@ namespace THIUWPB1
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        EmployeeController employeeController = new EmployeeController();
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Connect_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                List<Employee> listEmployee = employeeController.GetAllEmployee();
+
+                string strDetail = "";
+
+                if (listEmployee.Count > 0)
+                {
+                    foreach (var item in listEmployee)
+                    {
+                        strDetail += item.Id + ", " + item.Name + ", " + item.Role + ", " + item.Birthyear + "\n";
+                    }
+                    txtDetails.Text = strDetail;
+                }
+            }
+            catch (Exception ex)
+            {
+                string mess = ex.Message;
+                throw;
+            }
         }
     }
 }

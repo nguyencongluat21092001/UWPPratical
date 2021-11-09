@@ -9,6 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button Name="BtnConnectDB" Content="ListEmployee" Height="143" Margin="217,111,0,0" VerticalAlignment="Top" Width="303" Click="Connect_Click"/>
+        <TextBox Name="txtDetails" HorizontalAlignment="Left" Height="385" Margin="399,388,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="793" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform Rotation="0.808"/>
+            </TextBox.RenderTransform>
+        </TextBox>
 
     </Grid>
 </Page>
