@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="THIUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:THIUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="200" Background="#FFDBDBD4">
+        <StackPanel Margin="219,0,100,0">
+            <TextBox Text = "Name" Name="usernameTxt" Margin="10" Width="679"/>
+            <PasswordBox  Name="passwordTxt" Margin="10" Width="682" />
+            <TextBlock x:Name="alertTxt" Foreground="Red" Width="654"/>
+            <Button Content="Login" Margin="10 5" HorizontalAlignment="Center" FontSize="20" Foreground="White" Width="100" Background="Blue" Click="Login_acount" />
+        </StackPanel>
+    </Grid>
+</Page>
