@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace THIUWP.Model
 {
     
-    public class Users
+    public class User
     {
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }

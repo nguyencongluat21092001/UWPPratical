@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EgOdIoKuAc81PZaYSkUzPlEgyDEdqO/PduAhwoaAyLvl0esfxAahgweLbNlU3R2UAgqHl1yaCpTcElsgOgzwLg==",
+  "dgSpecHash": "UNrGF6t4DC7H1IycE9NRLuDbu8cgLqYHi4bZqz8UYH2IfTVsw8aDn1wDmiy3ln6IY9FePZteEWm6jcyb4hND7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WIN\\Documents\\Sem3\\1.Windows From Progrraming\\THIUWP\\THIUWP\\THIUWP.csproj",
+  "projectFilePath": "C:\\Users\\WIN\\Documents\\Sem3\\1.Windows From Progrraming\\UWPPratical\\THIUWP\\THIUWP\\THIUWP.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
